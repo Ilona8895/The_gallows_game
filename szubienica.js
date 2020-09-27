@@ -1,7 +1,7 @@
 var sentencja = new Array(5);
 sentencja [0] = "Bez pracy nie ma kołaczy";
 sentencja [1] = "It is after the birds";
-sentencja [2] = "First cays behind the fences";
+sentencja [2] = "First cats behind the fences";
 sentencja [3] = "Something is no yes";
 sentencja [4] = "Bileciki do kontroli";
 
