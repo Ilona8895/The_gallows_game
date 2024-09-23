@@ -4,6 +4,7 @@
 // };
 
 // const password = randomSentence(sentence);
+//Game of Thrones quotes API
 
 let shownPassword = "";
 let failureCounter = 0;
@@ -13,7 +14,7 @@ const no = new Audio("no.wav");
 const data = fetch("https://api.gameofthronesquotes.xyz/v1/random")
   .then((res) => res.json())
   .then((res) => {
-    console.log(res.sentence);
+    // console.log(res.sentence);
     const password = res.sentence;
 
     for (i = 0; i < password.length; i++) {
