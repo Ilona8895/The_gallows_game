@@ -1,73 +1,56 @@
-body
-{
-	background-color: #000000;
-	color: lightgray;
-	font-size: 28px;
-	font-family: 'Inconsolata', monospace;
-	font-weight: 700;
-	
-	
-} 
-#pojemnik
-{
-	width: 900px;
-	margin-left:auto;
-	margin-right:auto;
-	
+body {
+  background-color: #000000;
+  color: lightgray;
+  font-size: 28px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 700;
 }
-#plansza
-{
-	width: 900px;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	text-align: center;
-	font-size: 48px;
-	min-height: 60px;
-	
-	
+#container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
-#szubienica
-{
-	float: left;
-	width:450px;
-	text-align: center;
-	min-height: 280px;
-	
+#board {
+  width: 900px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 48px;
+  min-height: 60px;
 }
-#alfabet
-{
-	float: left;
-	width: 450px;
-	text-align: center;
-	min-height: 280px;
+#gallows {
+  float: left;
+  width: 450px;
+  text-align: center;
+  min-height: 280px;
 }
-.litera
-{
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	padding: 5px;
-	margin: 5px;
-	border: 3px solid gray;
-	float: left;
-	cursor: pointer;
-	border-radius: 15px;
-	
+#letters {
+  float: left;
+  width: 450px;
+  text-align: center;
+  min-height: 280px;
 }
-.litera:hover
-{
-	background-color: #222222;
-	color: white;
-	border: 3px solid white;
+.letter {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 15px;
 }
-.reset
-{
-	color: green;
-	cursor: pointer;
-	font-size: 48;
+.letter:hover {
+  background-color: #222222;
+  color: white;
+  border: 3px solid white;
 }
-.reset:hover
-{
-	color: white;
-	
+.reset {
+  color: green;
+  cursor: pointer;
+  font-size: 48;
+}
+.reset:hover {
+  color: white;
 }
