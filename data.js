@@ -1,11 +1,3 @@
-// const sentence = [
-//   "Bez pracy nie ma kołaczy",
-//   "It is after the birds",
-//   "First cats behind the fences",
-//   "Something is no yes",
-//   "Bileciki do kontroli",
-// ];
-
 const letters = [
   "A",
   "B",

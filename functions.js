@@ -60,19 +60,19 @@ function check(nr, password) {
     document.getElementById(element).style.cursor = "default";
     document.getElementById(element).setAttribute("onclick", ";");
 
-    //skucha
+    //failure
     failureCounter++;
     let picture = "img/s" + failureCounter + ".jpg";
     document.getElementById("gallows").innerHTML =
       '<img src="' + picture + '" alt="" />';
   }
-  //wygrana
+  //win
   if (password == shownPassword)
     document.getElementById("letters").innerHTML =
       "Wygrana. Poprawne  hasło: " +
       password +
       '<br/><br/><span class="reset" onclick="location.reload()">JESZCZE RAZ? </span> ';
-  //przegrana
+  //loss
   if (failureCounter >= 9)
     document.getElementById("letters").innerHTML =
       "Przegrana. Poprawne  hasło: " +
