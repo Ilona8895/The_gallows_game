@@ -73,6 +73,7 @@ function check(nr, password) {
       password +
       '<br/><br/><span class="reset" onclick="location.reload()">JESZCZE RAZ? </span> ';
   //loss
+
   if (failureCounter >= 9)
     document.getElementById("letters").innerHTML =
       "Przegrana. Poprawne  hasło: " +
